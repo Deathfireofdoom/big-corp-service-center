@@ -3,7 +3,7 @@ syntax = "proto3";
 package themanager;
 
 
-option go_package = "github.com/Deathfireofdoom/big-corp-service-center/the-manager;the_manage";
+option go_package = "github.com/Deathfireofdoom/big-corp-service-center/grpc/themanager;themanager";
 
 service TheManager {
     rpc TestFunction (TestMessage) returns (Message) {}

@@ -2,9 +2,9 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.9
-// source: protobuf/themanager/themanager.proto
+// source: themanager.proto
 
-package the_manage
+package themanager
 
 import (
 	context "context"
@@ -101,5 +101,5 @@ var TheManager_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "protobuf/themanager/themanager.proto",
+	Metadata: "themanager.proto",
 }

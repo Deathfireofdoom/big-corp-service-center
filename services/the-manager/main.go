@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"net"
 
-	pb "github.com/Deathfireofdoom/big-corp-service-center/the-manager/protobuf/themanager"
+	pb "github.com/Deathfireofdoom/big-corp-service-center/grpc/themanager"
 	"google.golang.org/grpc"
 )
 

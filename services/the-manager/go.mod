@@ -3,8 +3,8 @@ module github.com/Deathfireofdoom/big-corp-service-center/the-manager
 go 1.19
 
 require (
+	github.com/Deathfireofdoom/big-corp-service-center/grpc/themanager v0.0.0-20221129100551-e765e4d3358e
 	google.golang.org/grpc v1.51.0
-	google.golang.org/protobuf v1.28.1
 )
 
 require (
@@ -13,4 +13,5 @@ require (
 	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
 	golang.org/x/text v0.4.0 // indirect
 	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
+	google.golang.org/protobuf v1.28.1 // indirect
 )
